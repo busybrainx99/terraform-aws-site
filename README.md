@@ -65,11 +65,11 @@
 ### domain_name: The domain name for the website.
 
 ## terraform.tfvars file
-## region: Specified the primary region as ca-central-1.
-## bucket_name: Set the bucket name to traffic-website.
-## domain_name: Set the domain name to goodnesseboh.engineer.
+### region: Specified the primary region as ca-central-1.
+### bucket_name: Set the bucket name to traffic-website.
+### domain_name: Set the domain name to goodnesseboh.engineer.
 
-## Outputs Screenshoot
+# Outputs Screenshoot
 
 ## s3bucket
 
