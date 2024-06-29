@@ -3,7 +3,7 @@
 
 ## Created the project without modules first
 ### The first step was to run the project simply by not organizing it into modules. This approach allows for an easy transition to a modular structure once it's up and running smoothly.
-### This was my original file structure
+### This was my original file structure before putting the resources into modules.
 <img width="296" alt="EXPLORER" src="https://github.com/busybrainx99/terraform-aws-website-automation/assets/105159710/67b5a55b-ed2d-4f02-b33a-6b03fb91d85a">
 
 
@@ -54,8 +54,13 @@
 ### aws_route53_record.cert_validation: Created DNS records for domain validation.
 
 ## Outputs
-### output "cloudfront_domain_name" Output the CloudFront domain name
-
+### The following outputs are defined in my Terraform configuration
+### S3 Bucket ARN: The Amazon Resource Name (ARN) of my S3 bucket.
+### Bucket Name: The name of my S3 bucket.
+### CloudFront Domain Name: The domain name assigned to my CloudFront distribution.
+### Certificate ARN: The ARN of the ACM certificate used for HTTPS.
+### Route 53 Zone ID: The ID of the Route 53 hosted zone.
+### Route 53 Name Servers: The name servers for the Route 53 hosted zone
 
 ## main file (TO be updated)
 ### The main.tf file was used to call all the modules, including CloudFront, S3, permissions, certificate, and Route 53 modules.
